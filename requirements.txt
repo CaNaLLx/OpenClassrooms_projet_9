@@ -1,0 +1,24 @@
+# --- Entrainement ---
+torch>=2.3.0
+sentence-transformers>=3.0.0
+setfit>=1.1.0
+transformers>=4.40.0
+datasets>=2.19.0
+
+scikit-learn>=1.5.0
+pandas>=2.2.0
+numpy>=1.26.0,<2.0
+
+# --- NLP Twitter ---
+tweet-preprocessor==0.6.0
+emoji>=2.12.0
+wordsegment==1.3.1
+
+# --- Visualisation ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- Export modèle ---
+onnx>=1.16.0
+onnxruntime>=1.18.0
+optimum[onnxruntime]>=1.20.0

@@ -1,0 +1,9 @@
+name: poc-setfit
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - pip:
+    - -r requirements.txt
