@@ -1,6 +1,8 @@
 __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
+setfit_poc/
+checkpoints/
 
 *.txt
 .DS_Store
