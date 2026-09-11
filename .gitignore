@@ -4,7 +4,9 @@ __pycache__/
 .venv/
 Models/
 checkpoints/
-Data/
+
+*.csv
+!test.csv
 
 *.txt
 !requirements.txt
