@@ -2,11 +2,15 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 .venv/
+.venv_validation/
+.cache/
 Models/
 checkpoints/
 
 *.csv
 !test.csv
+!Data/SPLIT/test_independant.csv
+!Results/*.csv
 
 *.txt
 !requirements.txt

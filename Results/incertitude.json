@@ -1,0 +1,11 @@
+{
+  "f1_difference": 0.004273100345173586,
+  "bootstrap_95_ci": [
+    0.0007069316166279706,
+    0.007880833104387343
+  ],
+  "bootstrap_repetitions": 1000,
+  "lstm_only_correct": 4000,
+  "setfit_only_correct": 4195,
+  "mcnemar_exact_p_value": 0.03210479899059665
+}

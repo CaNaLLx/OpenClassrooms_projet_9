@@ -1,0 +1,12 @@
+{
+  "original_test_rows": 50000,
+  "test_rows_after_filtering": 47512,
+  "removed_test_rows": 2488,
+  "raw_overlap_train_test_rows": 835,
+  "raw_overlap_validation_test_rows": 96,
+  "test_class_counts": {
+    "0": 23957,
+    "1": 23555
+  },
+  "raw_overlap_train_validation_rows": 421
+}
