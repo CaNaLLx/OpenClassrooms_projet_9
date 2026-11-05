@@ -15,4 +15,4 @@ Le test corrigé reste un sous-ensemble du test initial. Il exclut les textes br
 
 Les partitions d'origine sont conservées pour recharger les modèles sans modifier leurs données d'entraînement. Les indices du vocabulaire du BiLSTM sont sauvegardés dans son modèle.
 
-Références : [article d'origine](https://cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf), [fiche du corpus](https://huggingface.co/datasets/stanfordnlp/sentiment140), [GloVe Twitter](https://nlp.stanford.edu/projects/glove/).
+Références : [article d'origine](https://cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf), [fiche du corpus](https://huggingface.co/datasets/stanfordnlp/sentiment140), [dépôt officiel GloVe et vecteurs Twitter](https://github.com/stanfordnlp/GloVe).

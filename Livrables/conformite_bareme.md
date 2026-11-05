@@ -1,14 +1,14 @@
 # Correspondance avec le barème
 
-Révision du 22 octobre 2026. Ce document indique où retrouver les éléments préparés ; il ne remplace pas l'évaluation du jury.
+Repères pour retrouver les éléments du projet et préparer la soutenance.
 
 | Compétence et critère | Preuve dans le projet |
 | --- | --- |
 | Veille CE1 : sources reconnues et récentes | Article SetFit et blog explicatif de 2022, blog SetFitABSA de 2023 ; sources des auteurs |
-| Veille CE2 : points clés et mathématiques | Note page 2 et notebook : cosinus, perte de paires avec exemple numérique et tête logistique ; étapes ABSA en mots simples |
+| Veille CE2 : points clés et mathématiques | Note page 2 et notebook : deux étapes SetFit, erreur d'une paire avec exemple numérique et moyenne des F1 ; extension ABSA expliquée en mots simples |
 | Veille CE3 : articulation des sources | Article de recherche → blog de mise en pratique → adaptation ABSA ; notre application à Sentiment140 |
 | Veille CE4 : preuve de concept comparée | Notebook, modèles et résultats BiLSTM + GloVe / SetFit + MPNet sur le même test |
-| Note CE1 : synthèse | Note de six pages |
+| Note CE1 : synthèse | Note synthétique de six pages |
 | Note CE2 : métrique et optimisation | Page 3 : F1 macro, précision/rappel, validation, arrêt anticipé et réglages fixes SetFit |
 | Note CE3 : interprétabilité | Page 5, notebook et exports : suppression locale et agrégation sur 100 tweets |
 | Note CE4 : limites et améliorations | Page 6 : budgets identiques, graines, nouveau test, calibration et stabilité des explications |

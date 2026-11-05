@@ -1,6 +1,6 @@
 # Classification de sentiments avec SetFit
 
-Projet 9 d'Allan CHARDON. La preuve de concept compare un BiLSTM avec GloVe et SetFit avec MPNet sur Sentiment140. La révision du 22 octobre 2026 suit le barème : veille, modélisation, interprétabilité, présentation et accessibilité.
+Projet 9 d'Allan CHARDON. La preuve de concept compare un BiLSTM avec GloVe et SetFit avec MPNet sur Sentiment140.
 
 ## Résultats
 
@@ -13,7 +13,7 @@ Les modèles sont évalués sur les mêmes 47 512 tweets, après retrait des che
 
 Le gain de F1 est de 0,427 point. Le train est environ 293 fois plus petit, hors préentraînement et validation. SetFit est plus lent à l'inférence dans ces mesures. Les budgets, nettoyages et validations diffèrent et un seul entraînement est disponible par modèle.
 
-Les résultats du 26 septembre 2026 figurent dans Results. Cette révision ajoute les explications et l'accessibilité ; elle ne réentraîne pas les modèles. Les anciennes analyses d'incertitude restent archivées.
+Les résultats de l'évaluation du 26 septembre 2026 sont enregistrés dans Results. Le notebook recharge par défaut les modèles sauvegardés pour retrouver les prédictions.
 
 ## Lancer le projet
 
@@ -40,7 +40,7 @@ Les contrôles locaux incluent un agrandissement de page à 200 % par émulation
 
 Le déploiement utilise GitHub et Streamlit Community Cloud. Publier Dashboard, SRC, .streamlit/config.toml, Data/SPLIT/test_independant.csv et Results/comparaison_modeles.csv, puis redéployer Dashboard/app.py. Dashboard/requirements.txt contient les dépendances. La configuration .streamlit doit rester à la racine du dépôt.
 
-Vérifier les trois onglets, une prédiction et les tableaux sur l'URL publique. Aucune URL n'a été transmise pour contrôler la version web depuis cette session.
+Vérifier les trois onglets, une prédiction et les tableaux sur l'URL publique.
 
 ## Livrables et sources
 
@@ -50,4 +50,6 @@ Livrables contient le plan d'une page, le notebook, la note de six pages, le das
 - Jo et al. (2022), [blog SetFit](https://huggingface.co/blog/setfit) : explication des deux phases et exemple de code avec MPNet.
 - Laperdon et al. (2023), [SetFitABSA](https://huggingface.co/blog/setfit-absa) : adaptation du concept au sentiment par aspect, étudiée dans la veille.
 - [Quickstart SetFit 1.1.3](https://huggingface.co/docs/setfit/v1.1.3/en/quickstart) : code adapté de SST-2 à Sentiment140.
-- Go et al. (2009), [Sentiment140](https://cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf) : corpus et labels automatiques.
+- Go, Bhayani et Huang (2009), [Twitter Sentiment Classification using Distant Supervision](https://cs.stanford.edu/people/alecmgo/papers/TwitterDistantSupervision09.pdf) : corpus et labels automatiques.
+
+La perte du code est décrite dans la [documentation CosineSimilarityLoss](https://www.sbert.net/docs/package_reference/sentence_transformer/losses.html#cosinesimilarityloss). Les blogs complètent l'article scientifique ; l'ABSA n'est pas entraînée dans le projet.
