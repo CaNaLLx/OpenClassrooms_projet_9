@@ -6,6 +6,7 @@ __pycache__/
 .cache/
 Models/
 checkpoints/
+Livrables/
 
 *.csv
 !test.csv
